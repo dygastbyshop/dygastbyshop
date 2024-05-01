@@ -1,0 +1,196 @@
+/*background-image es para colocar
+una imagen de fondo		*/
+body {
+		background-image:url("../imagenes/fondoropa.jpg");
+		color:#2C3E50;
+		font-family:"Lucida Console", "Courier New", monospace;
+		font-size: 40px; 	
+}
+p{
+	text-align: justify;  
+	font-size: 20px;
+}
+hr{
+	/* solid dotted dashed double*/
+	border: 3px solid #7FB3D5;
+	border-radius:5px;
+	width:80%;
+}	
+table,tr,td{
+	border: 3px solid;
+	border-spacing: 0px;
+	border-color:#5D6D7E;
+	background-color:#B99074;
+	text-align:center;
+	font-size:20px;
+}	
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+}	
+ol{
+	list-style-type:lower-alpha;
+	list-style-position:inside;
+}
+@font-face{
+	font-family:fuente;
+	src:url("../fonts/AGENCYR.ttf");
+}
+.pie{
+	font-size:15px;
+	text-align:center;
+	font-weight:bold;
+}
+.encabezado{
+	font-family:fuente;
+	font-size:35px;
+	text-align:center;
+	font-weight:bold;
+}
+.direccion{
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+}
+.img-marquee{
+	height:400px;  
+	width:600px;
+}
+/*Codigo en css 16 de Abril 2024*/
+.img-controller{
+	height:50px;
+	width:50px;
+}
+.img-productos{
+	height:200px; 
+	width:150px;
+	border-radius:10%;
+}
+*{
+	margin:0px;
+}
+div#text{
+	padding:20px;
+	width:100%;
+	background:#A9CCE3;
+	font-size:15px;
+	text-align:center;
+	font-weight:bold;
+	border-radius:10%;
+	border:2px solid #A9CCE3;
+	height;200px;
+}
+div#top{
+	padding:30px;
+	width:100%;
+	height:60px;
+	/*background-color:#CE6A11;*/
+	background-image:linear-gradient(#A9CCE3,#7FB3D5);
+}
+div#piediv{
+	padding:15px;
+	width:100%;
+	height:80px;
+	background-image:linear-gradient(#A9CCE3,#7FB3D5);
+}
+div#principal{
+	Width:100%;
+	background-image:url("../imagenes/fondo2.jpg");
+}
+.caja{
+	height:300px;
+	width:250px;
+	background-color:#eee;
+	border: 1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px blue;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:green;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	/*Padding y borde formen parte del calculo de la caja*/
+	box-sizing:border-box;
+}
+.conteCarrousel{
+	width:100%;
+	height:400px;
+	/*oculta el contenido que sobresalga del div*/
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemCarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows{
+	/*El elemento se coloca respecto a su contenedor posicionado mas cercano*/
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemCarrouselArrows>i:hover{
+	cursor:pointer;
+}
+.conteCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.conteCarrouselController>a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemCarrouselArrows>a>i{
+	color:white;
+}
+.descripcion{
+	height:200px;
+	width:300px;
+	background-color:#eee;
+	border:2px solid #A9CCE3;
+	text-align:center;
+	color:black;
+	font-size:25px;
+	border-radius:10%;
+}
+
+
+
+
+
+
+
